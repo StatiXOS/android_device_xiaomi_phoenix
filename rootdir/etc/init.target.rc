@@ -178,6 +178,12 @@ on boot
     chown system system /sys/bus/platform/devices/soc/soc:fpc1020/irq
     chown system system /sys/bus/platform/devices/soc/soc:fpc1020/wakeup_enable
 
+on property:sys.boot_completed=1
+    # Configure default schedTune value for foreground/top-app
+    write /dev/stune/foreground/schedtune.prefer_idle 1
+    write /dev/stune/top-app/schedtune.boost 10
+    write /dev/stune/top-app/schedtune.prefer_idle 1
+
 #start camera server as daemon
 #service qcamerasvr /system/bin/mm-qcamera-daemon
 #    class late_start
