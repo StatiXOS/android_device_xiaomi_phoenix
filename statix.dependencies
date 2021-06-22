@@ -1,0 +1,18 @@
+[
+  {
+    "remote": "gitlab",
+    "repository": "android_vendor_xiaomi_phoenix",
+    "target_path": "vendor/xiaomi/phoenix",
+    "branch": "11"
+  },
+  {
+    "repository": "android_kernel_xiaomi_phoenix",
+    "target_path": "kernel/xiaomi/phoenix",
+  },
+  {
+    "repository": "LineageOS/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch": "lineage-18.1",
+    "remote": "github"
+  }
+]
