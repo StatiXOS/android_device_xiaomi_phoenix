@@ -21,3 +21,4 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_BLUR := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+BUILD_FINGERPRINT := google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys
