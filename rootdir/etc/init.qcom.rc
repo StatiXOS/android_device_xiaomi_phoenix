@@ -61,6 +61,25 @@ on early-init
     # Load WIGIG platform driver
     #exec u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules msm_11ad_proxy
 
+    # Disable I/O stats.
+    write /sys/block/dm-0/queue/iostats 0
+    write /sys/block/dm-1/queue/iostats 0
+    write /sys/block/dm-2/queue/iostats 0
+    write /sys/block/dm-3/queue/iostats 0
+    write /sys/block/dm-4/queue/iostats 0
+    write /sys/block/dm-5/queue/iostats 0
+    write /sys/block/dm-6/queue/iostats 0
+    write /sys/block/dm-7/queue/iostats 0
+    write /sys/block/dm-8/queue/iostats 0
+    write /sys/block/dm-9/queue/iostats 0
+    write /sys/block/mmcblk0/queue/iostats 0
+    write /sys/block/sda/queue/iostats 0
+    write /sys/block/sdb/queue/iostats 0
+    write /sys/block/sdc/queue/iostats 0
+    write /sys/block/sdd/queue/iostats 0
+    write /sys/block/sde/queue/iostats 0
+    write /sys/block/sdf/queue/iostats 0
+
 on init
 
     # Support legacy paths
