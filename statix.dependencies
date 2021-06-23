@@ -1,7 +1,7 @@
 [
   {
     "remote": "gitlab",
-    "repository": "android_vendor_xiaomi_phoenix",
+    "repository": "gaganmalvi/android_vendor_xiaomi_phoenix",
     "target_path": "vendor/xiaomi/phoenix",
     "branch": "11"
   },
