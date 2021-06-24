@@ -14,9 +14,6 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/phoenix/phoenix-vendor.mk)
 
-# Include PSU if synced
-$(call inherit-product-if-exists, vendor/google/psu/google-psu.mk)
-
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
