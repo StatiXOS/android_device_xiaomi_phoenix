@@ -1,13 +1,13 @@
 [
   {
-    "remote": "gitlab",
     "repository": "gaganmalvi/android_vendor_xiaomi_phoenix",
     "target_path": "vendor/xiaomi/phoenix",
-    "branch": "11"
+    "branch": "11",
+    "remote": "gitlab"
   },
   {
     "repository": "android_kernel_xiaomi_phoenix",
-    "target_path": "kernel/xiaomi/phoenix",
+    "target_path": "kernel/xiaomi/phoenix"
   },
   {
     "repository": "LineageOS/android_hardware_xiaomi",
