@@ -7,7 +7,7 @@
   },
   {
     "repository": "android_kernel_xiaomi_phoenix",
-    "target_path": "kernel/xiaomi/phoenix",
+    "target_path": "kernel/xiaomi/phoenix"
   },
   {
     "repository": "LineageOS/android_hardware_xiaomi",
